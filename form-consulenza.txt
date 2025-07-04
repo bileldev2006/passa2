@@ -1,0 +1,9 @@
+<form name="consulenzaForm" method="POST" data-netlify="true" netlify-honeypot="bot-field" netlify-recaptcha>
+  <input type="hidden" name="form-name" value="consulenzaForm" />
+  <p hidden><label>Non compilare: <input name="bot-field" /></label></p>
+  <input name="codiceFiscale" />
+  <input name="email" />
+  <input name="telefono" />
+  <input type="checkbox" name="privacy" />
+  <div data-netlify-recaptcha="true"></div>
+</form>
